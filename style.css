@@ -3,3 +3,55 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    max-width: 1280px;
+    height: auto;
+}
+.heading open-sans-uniquifier{
+   font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+}
+
+.navigation{
+display: flex;
+justify-content: space-between;
+justify-items: center;
+background-color: transparent;
+
+}
+
+.logo{
+    margin: 0 auto;
+     padding: 15px 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+   
+}
+
+
+ul li a{
+text-decoration: none;
+ padding: 15px 20px;
+ color: black;
+ font-weight: 700;
+ transition: all 0.3s ease;
+ 
+}
+
+li a:hover{
+ color: green;
+ cursor: pointer;
+ background-color: transparent;
+box-shadow: 0 2px 4px 0;
+border-radius: 5px ;
+}
