@@ -98,3 +98,36 @@ li a:hover {
 .banner-title2:hover{
     color: #0a051b;
  }
+
+
+  /* this is main section start */
+  /* categories part */
+ .categories{
+ background-color: #ffffff;
+text-align:center ;
+margin-top: 70px;
+ }
+
+ .offer{
+ color: #FF0000;
+ font-weight: 700;
+ font-size: 88px;
+  }
+
+ .better{
+ font-size: 20px;
+ font-weight: 500;
+ color: #FF0000;
+ }
+
+ categories-title{
+  color: #070211;
+ font-weight: 700;
+ font-size: 88px;
+ }
+
+  /* .categories .new-year-pic{
+ margin: 0 auto;
+ width: 800px;
+ height: 500px;
+ } */
