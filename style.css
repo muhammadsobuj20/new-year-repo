@@ -131,3 +131,42 @@ margin-top: 70px;
  width: 800px;
  height: 500px;
  } */
+
+/* party section */
+
+.new-year-party{
+background-color: #ffffff;
+position: relative;
+}
+
+.wlc-mid-party{
+position: absolute;
+top:50%;
+/* width: 100%; */
+padding: 20x;
+margin-left: 50px;
+
+}
+
+.wlc-title{
+font-size: 64px;
+font-weight: 900;
+color: #ffffff;
+letter-spacing: 11px;
+}
+
+.text-description{
+text-align: justify;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+color: #ffffff;
+margin-top: 30px;
+}
+
+.join-now{
+color: #ffffff;
+font-weight: 700;
+font-size: 20px;
+margin-top: 40px;
+}
