@@ -247,10 +247,17 @@ span {
   margin: auto;
 }
 
+/* holyday section */
+
 .holyday-container {
+  background-image: url(./assets/images/Rectangle\ 2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
   max-width: 1280px;
-  height: 970px;
+  height: 900px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .functional {
@@ -262,59 +269,54 @@ span {
 .holy-description {
 }
 
-.Group75 {
-  width: 790px;
-  height: 660px;
+.img-group{
+margin-bottom: 70px;
+
 }
 
-.group44 {
-  width: 300px;
-  height: 3000px;
-  margin: 0 auto;
-}
-
-.Rectangle2 {
-  height: 300px;
-  margin-bottom: 50px;
-}
+/* card section */
 
 .card-container {
   max-width: 1280px;
-  height: 1160px;
-  margin-top: 70px;
+  height: 900px;
+  margin-top: 200px;
+  padding-left: 30px;
 }
 
 .card-content {
   display: flex;
   justify-content: space-around;
-  gap: 30px;
-  width: 300px;
-  height: auto;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* width: 300px;
+  height: auto; */
 }
 
 .card-content img {
-  width: 100%;
-  height: auto;
+  width: 400px;
+  height: 350px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0;
+  border-radius: 15px;
 }
 
 .subscribe-section {
   background-color: #ffe8e8;
   max-width: 1280px;
-  height: 660px;
+  height: 600px;
   /* margin-top: 70px; */
   text-align: center;
 }
 
-.subscribe-container{
+.subscribe-container {
   /* margin-top: 90px; */
   padding-top: 100px;
 }
 
- .subscribe-title{
+.subscribe-title {
   font-size: 40px;
   font-weight: 800;
- }
-
+}
 
 /* form {
 } */
@@ -323,7 +325,58 @@ form input {
   padding: 20px;
   margin-top: 25px;
 }
- .btn-primary2{
-  background-color:#ff0000;
- border-radius: 0 25px 25px 0;
- }
+.btn-primary2 {
+  background-color: #ff0000;
+  border-radius: 0 25px 25px 0;
+}
+
+/* footer section */
+
+
+hr{
+  border: 1px solid gray;
+}
+.footer-section {
+  max-width: 1280px;
+  height: 600px;
+  background-color: #070211;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0px 120px; */
+  padding: 20px;
+  align-items: center;
+}
+
+.footer-con-web{
+ padding: 20px;
+
+}
+
+
+.img-web{
+ width: 20px;
+  margin-top:80px ;
+}
+.footer-socials-links {
+ margin: 20px auto;
+ text-align: center;
+ padding: 20px;
+}
+
+.footer-socials-links img{
+ width: 50px;
+ padding: 10px;
+}
+
+.copyright-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 130px;
+  padding: 20px;
+}
