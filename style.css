@@ -215,7 +215,7 @@ span {
 }
 
 .comming-soon-container {
-  background-color: #ffe8e8;
+  background-color: #ffffff;
   max-width: 1280px;
   height: 465px;
   display: flex;
@@ -246,3 +246,84 @@ span {
 .happy-new {
   margin: auto;
 }
+
+.holyday-container {
+  max-width: 1280px;
+  height: 970px;
+  text-align: center;
+}
+
+.functional {
+}
+
+.holyday-title {
+}
+
+.holy-description {
+}
+
+.Group75 {
+  width: 790px;
+  height: 660px;
+}
+
+.group44 {
+  width: 300px;
+  height: 3000px;
+  margin: 0 auto;
+}
+
+.Rectangle2 {
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  max-width: 1280px;
+  height: 1160px;
+  margin-top: 70px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  width: 300px;
+  height: auto;
+}
+
+.card-content img {
+  width: 100%;
+  height: auto;
+}
+
+.subscribe-section {
+  background-color: #ffe8e8;
+  max-width: 1280px;
+  height: 660px;
+  /* margin-top: 70px; */
+  text-align: center;
+}
+
+.subscribe-container{
+  /* margin-top: 90px; */
+  padding-top: 100px;
+}
+
+ .subscribe-title{
+  font-size: 40px;
+  font-weight: 800;
+ }
+
+
+/* form {
+} */
+
+form input {
+  padding: 20px;
+  margin-top: 25px;
+}
+ .btn-primary2{
+  background-color:#ff0000;
+ border-radius: 0 25px 25px 0;
+ }
