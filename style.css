@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   max-width: 1280px;
-  height: auto;
+  height: 0 auto;
 }
 .heading open-sans-uniquifier {
   font-family: "Open Sans", sans-serif;
@@ -19,8 +19,9 @@ body {
   display: flex;
   justify-content: space-between;
   justify-items: center;
-  /* background-color: #0a051b; */
-}
+  max-width: 1280px;
+  margin: 0 auto;
+ }
 
 .logo {
   margin: 0 auto;
@@ -56,6 +57,10 @@ li a:hover {
   max-width: 1280px;
   height: 600px;
   position: relative;
+  margin: 0 auto;
+  background-image: url(./assets/images/Banner\ Image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .banner-content {
@@ -68,9 +73,7 @@ li a:hover {
 .bg-banner-pc {
   border: 16px;
   height: 600px;
-  /* margin-left: 140px;
-  margin-top: 50px; */
-  opacity: 0.8;
+   opacity: 0.8;
   cursor: pointer;
 }
 
@@ -130,11 +133,6 @@ categories-title {
   font-size: 88px;
 }
 
-/* .categories .new-year-pic{
- margin: 0 auto;
- width: 800px;
- height: 500px;
- } */
 
 /* party section */
 
@@ -144,12 +142,14 @@ categories-title {
   max-width: 1280px;
   height: 600px;
   margin: 0 auto;
+  background-image: url(./assets/images/Vectorrr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .wlc-mid-party {
   position: absolute;
   top: 25%;
-  /* width: 100%; */
   padding: 20x;
   margin-left: 50px;
 }
@@ -159,8 +159,7 @@ categories-title {
   font-weight: 900;
   color: #ffffff;
   letter-spacing: 11px;
-  /* width: 642px;
-  height: 176px; */
+ 
 }
 
 .text-description {
@@ -194,6 +193,7 @@ categories-title {
   width: 1280px;
   height: 450px;
   margin: 70px auto;
+  border-radius: 10px;
 }
 .sub-place-section {
   margin-top: 60px;
@@ -258,24 +258,39 @@ span {
   height: 900px;
   text-align: center;
   margin-top: 50px;
+  object-fit: contain;
+  margin: 0 auto;
+  position: relative;
 }
 
 .functional {
+  font-size: 32px;
+  font-weight: 700;
+  color: #070211;
 }
 
 .holyday-title {
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .holy-description {
+   line-height: 1.3em;
 }
 
-.img-group{
-margin-bottom: 70px;
-
+.gift-box {
+  position: absolute;
+  top: 30%;
+  left: -8%;
 }
+.gift-box .Group-44 {
+  position: absolute;
+  top: 0%;
+  
+}
+
 
 /* card section */
-
 .card-container {
   max-width: 1280px;
   height: 900px;
@@ -304,7 +319,6 @@ margin-bottom: 70px;
   background-color: #ffe8e8;
   max-width: 1280px;
   height: 600px;
-  /* margin-top: 70px; */
   text-align: center;
 }
 
@@ -318,9 +332,7 @@ margin-bottom: 70px;
   font-weight: 800;
 }
 
-/* form {
-} */
-
+/* input form sction */
 form input {
   padding: 20px;
   margin-top: 25px;
@@ -330,9 +342,9 @@ form input {
   border-radius: 0 25px 25px 0;
 }
 
+
+
 /* footer section */
-
-
 hr{
   border: 1px solid gray;
 }
